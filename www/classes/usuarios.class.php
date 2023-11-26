@@ -3,7 +3,7 @@ class Usuarios {
     private $pdo;
 
     public function __construct() {
-        $this->pdo = new PDO("mysql:dbname=dnktictactoe;host=10.147.20.100", "daniel", "nose");
+        $this->pdo = new PDO("mysql:dbname=dnktictactoe;host=10.147.20.155", "usuario", "usuario");
     }
 
     public function logIn($nick, $senha) {
