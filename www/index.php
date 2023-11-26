@@ -58,7 +58,7 @@ if(isset($_SESSION['nick']) && !empty($_SESSION['nick'])) {
             <input type="submit" class="form-control" value = "CREAR PARTIDA">
         </div>
     </form>
-    <a href="buscarjogo.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CREAR PARTIDA</a>
+    <a href="buscarjogo.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">BUSCAR PARTIDA</a>
     <a id="fila" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">COLA</a>
     <a id="cancelar" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">SALIR DE LA COLA</a>
     </div>
