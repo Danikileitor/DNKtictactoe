@@ -53,7 +53,7 @@ if(isset($_POST['nick']) && isset($_POST['senha'])) {
             <input type="password" class="form-control" name="senha">
         </div>
         <div class="form-group">
-            <input type="submit" class="form-control" value="LOG IN">
+            <input type="submit" class="form-control" value="INICIAR SESIÓN">
         </div>
     </form>
     <a href="cadastrar.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Registrarse</a>
