@@ -43,7 +43,7 @@ if(isset($_SESSION['nick']) && !empty($_SESSION['nick'])) {
 </head>
 <body>
     <div class="container">
-    <h6>Asegúrate de escribir correctamente el nombre de tu oponente.</h6>
+    <h6>Asegúrate de escribir correctamente el nombre de tu oponente</h6>
     <form method="GET">
         <div class="form-group">
             <label id="nick" for="formGroupExampleInput"><?php echo $_SESSION['nick'];?></label>
@@ -59,7 +59,7 @@ if(isset($_SESSION['nick']) && !empty($_SESSION['nick'])) {
         </div>
     </form>
     <a href="buscarjogo.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CREAR PARTIDA</a>
-    <a id="fila" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">FILA</a>
+    <a id="fila" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">COLA</a>
     <a id="cancelar" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">SALIR DE LA COLA</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

@@ -4,7 +4,7 @@ class Game{
     private $pdo;
 
     public function __construct(){
-        $this->pdo = new PDO("mysql:dbname=jogodavelha;host=localhost", "root", "");    
+        $this->pdo = new PDO("mysql:dbname=dnktictactoe;host=10.147.20.100", "daniel", "nose");
     }
 
     public function novaJogada($jogo, $numero, $player, $gameOver) {

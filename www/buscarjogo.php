@@ -36,19 +36,19 @@ if(isset($_SESSION['nick']) && !empty($_SESSION['nick'])) {
 </head>
 <body>
 <div class="container">
-    <h6>Certifique de que seu adversário digitou seu nick corretamente</h6>
+    <h6>Asegúrate de escribir correctamente el nombre de tu oponente</h6>
     <form method="GET">
         <div class="form-group">
-            <label for="formGroupExampleInput">CODIGO DO JOGO</label>
+            <label for="formGroupExampleInput">CÓDIGO DEL JUEGO</label>
             <input type="text" class="form-control" name="jogo">
         </div>
         <div class="form-group">
             <input type="submit" class="form-control" value="ENTRAR">
         </div>
     </form>
-    <a href="index.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CRIE SUA PARTIDA</a>
-    <a id="fila" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">FILA</a>
-    <a id="cancelar" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">SAIR DA FILA</a>
+    <a href="index.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CREAR PARTIDA</a>
+    <a id="fila" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">COLA</a>
+    <a id="cancelar" class="btn btn-danger btn-lg active" role="button" aria-pressed="true">SALIR DE LA COLA</a>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

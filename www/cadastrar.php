@@ -30,18 +30,18 @@ if(isset($_POST['nick']) && isset($_POST['senha'])) {
 <div class="container">
     <form method="POST">
         <div class="form-group">
-            <label for="formGroupExampleInput">Nick ou Nome</label>
+            <label for="formGroupExampleInput">Nombre</label>
             <input type="text" class="form-control" name="nick">
         </div>
         <div class="form-group">
-            <label for="formGroupExampleInput2">Senha</label>
+            <label for="formGroupExampleInput2">Contraseña</label>
             <input type="password" class="form-control" name="senha">
         </div>
         <div class="form-group">
             <input type="submit" class="form-control" value="CADASTRE - SE">
         </div>
     </form>
-    <p>Precisamos que você tenha uma sessão para conseguirmos diferenciar as chamadas de fila</p>
+    <p>Necesitamos que tengas una sesión para poder diferenciar las llamadas en cola</p>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
