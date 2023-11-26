@@ -55,7 +55,7 @@ if(isset($_SESSION['nick']) && !empty($_SESSION['nick'])) {
             <input type="text" class="form-control" name="player2">
         </div>
         <div class="form-group">
-            <input type="submit" class="form-control" value = "CRIAR PARTIDA">
+            <input type="submit" class="form-control" value = "CREAR PARTIDA">
         </div>
     </form>
     <a href="buscarjogo.php" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">CREAR PARTIDA</a>

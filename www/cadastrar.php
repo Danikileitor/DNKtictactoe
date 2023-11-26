@@ -38,7 +38,7 @@ if(isset($_POST['nick']) && isset($_POST['senha'])) {
             <input type="password" class="form-control" name="senha">
         </div>
         <div class="form-group">
-            <input type="submit" class="form-control" value="CADASTRE - SE">
+            <input type="submit" class="form-control" value="REGISTRARSE">
         </div>
     </form>
     <p>Necesitamos que tengas una sesión para poder diferenciar las llamadas en cola</p>
